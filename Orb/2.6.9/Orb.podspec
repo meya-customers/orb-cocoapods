@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     ]
     s.platform = :ios
     s.swift_version = "5.2"
-    s.ios.deployment_target  = '12.0'
+    s.ios.deployment_target  = '8.0'
     #s.user_target_xcconfig = {
     #  'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/MyStaticLib/MyStaticLib.framework"'
     #}
