@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
         :text => "LICENSE.md",
     }
     s.author = { "Meya.ai" => "support@meya.ai" }
-    # s.source = { :git => "/Users/roeland/git/sandbox/orb-sdk.git", :tag => "#{s.version}" }
-    s.source = { :http => "http://localhost:9000/artifacts.zip" }
+    s.source = { :http => 'https://staging-cdn.meya.ai/orb-sdk/241c87ad800beeab545ab867354d4683d5bfb6ce/2.6.9/artifacts.zip' }
+    s.documentation_url     = 'https://flutter.dev/docs'
     s.ios.vendored_frameworks = [
       "App.xcframework",
       "DKImagePickerController.xcframework",
@@ -30,11 +30,8 @@ Pod::Spec.new do |s|
       "url_launcher.xcframework"
     ]
     s.platform = :ios
-    s.swift_version = "5.2"
     s.ios.deployment_target  = '8.0'
-    #s.user_target_xcconfig = {
-    #  'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/MyStaticLib/MyStaticLib.framework"'
-    #}
+    s.dependency 'Flutter', '2.2.300'
 end
 
 
