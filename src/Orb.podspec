@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
         :text => "LICENSE.md",
     }
     s.author = { "Meya.ai" => "support@meya.ai" }
-    s.source = { :http => 'https://staging-cdn.meya.ai/orb-sdk/241c87ad800beeab545ab867354d4683d5bfb6ce/2.6.9/artifacts.zip' }
+    s.source = { :http => 'https://cdn-staging.meya.ai/orb-sdk/241c87ad800beeab545ab867354d4683d5bfb6ce/2.6.9/artifacts.zip' }
     s.documentation_url = 'https://docs.meya.ai/docs/orb-mobile-sdk'
     s.ios.vendored_frameworks = [
       "App.xcframework",
