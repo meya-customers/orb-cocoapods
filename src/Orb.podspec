@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 Pod::Spec.new do |s|
     s.name = "Orb"
-    s.version = "2.6.10"
+    s.version = "2.6.11"
     s.summary = "Orb Mobile SDK for iOS"
     s.description = "Orb is the visual component of your conversational app that lives on "\
       "your website or within your mobile app. With Orb, you will expand the capabilities "\
