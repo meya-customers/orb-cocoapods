@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     ]
     s.platform = :ios
     s.ios.deployment_target = '8.0'
-    s.dependency 'FlutterDebug', '2.5.200'
+    s.dependency 'FlutterDebug', '2.5.300'
 end
 
 
