@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 Pod::Spec.new do |s|
     s.name = "Orb"
-    s.version = "2.7.5"
+    s.version = "2.7.6"
     s.summary = "Orb Mobile SDK for iOS"
     s.description = "Orb is the visual component of your conversational app that lives on "\
       "your website or within your mobile app. With Orb, you will expand the capabilities "\
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
         :text => "LICENSE.md",
     }
     s.author = { "Meya.ai" => "support@meya.ai" }
-    s.source = { :http => 'https://cdn.meya.ai/orb-sdk/241c87ad800beeab545ab867354d4683d5bfb6ce/2.7.5/artifacts.zip' }
+    s.source = { :http => 'https://cdn.meya.ai/orb-sdk/241c87ad800beeab545ab867354d4683d5bfb6ce/2.7.6/artifacts.zip' }
     s.documentation_url = 'https://docs.meya.ai/docs/orb-mobile-sdk'
     s.ios.vendored_frameworks = [
       "App.xcframework",
@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
     ]
     s.platform = :ios
     s.ios.deployment_target = '8.0'
-    s.dependency 'Flutter', '2.5.300'
+    s.dependency 'Flutter', '2.10.300'
 end
